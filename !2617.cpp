@@ -1,9 +1,9 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
-//explicatie ??????? 80%
-int main () {
-    unsigned N, M, S;
-    cin >> N >> M;
-    S = (N -1) + 1LL* N * (M -1);
-    cout << S;
+int main()
+{
+    int n , m;
+    cin >> n >> m;
+    cout << (n - 1) + 1LL * n * (m - 1);
+    return 0;
 }
